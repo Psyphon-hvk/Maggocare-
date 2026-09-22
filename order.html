@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order via WhatsApp | Maggocare</title>
+<meta name="description" content="Place a maggot therapy request with Maggocare. Fill in the short form and continue on WhatsApp at +254 793 935665.">
+<meta name="theme-color" content="#0b2a55">
+<link rel="icon" href="images/logo.png" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="" width="38" height="38"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="how-it-works.html">How it works</a></li>
+      <li><a href="conditions.html">What we treat</a></li>
+      <li><a href="our-lab.html">Our lab</a></li>
+      <li><a href="safety-faq.html">Safety &amp; FAQ</a></li>
+      <li><a class="btn btn-navy nav-cta" href="order.html" aria-current="page">Order now</a></li>
+    </ul>
+  </div>
+</header>
+<main id="main">
+<section class="banner">
+  <div class="wrap">
+    <h1>Order on WhatsApp</h1>
+    <p>Fill in the short form and we open WhatsApp with your details ready to send. Or message us directly.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap order-grid">
+    <form class="form" id="order-form" novalidate>
+      <h2 style="font-size:1.6rem">Your request</h2>
+      <p class="small">Nothing is sent from this page. Pressing the button opens WhatsApp with a pre-written message for you to review and send.</p>
+
+      <label for="type">I am a</label>
+      <select id="type" name="type" required>
+        <option value="">Choose one</option>
+        <option>Clinician or wound nurse</option>
+        <option>Hospital or clinic (facility order)</option>
+        <option>Patient or family member</option>
+        <option>Training or partnership enquiry</option>
+      </select>
+      <div class="err">Please choose one.</div>
+
+      <div class="row">
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" name="name" autocomplete="name" required>
+          <div class="err">Please enter your name.</div>
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+254 ..." required>
+          <div class="err">Please enter a phone number.</div>
+        </div>
+      </div>
+
+      <label for="org">Facility or organisation <span class="small">(optional)</span></label>
+      <input id="org" name="org" autocomplete="organization">
+
+      <label for="wound">Wound type</label>
+      <select id="wound" name="wound" required>
+        <option value="">Choose one</option>
+        <option>Diabetic foot ulcer</option>
+        <option>Venous leg ulcer</option>
+        <option>Pressure ulcer</option>
+        <option>Traumatic or post-surgical wound</option>
+        <option>Other or not sure</option>
+      </select>
+      <div class="err">Please choose a wound type.</div>
+
+      <div class="row">
+        <div>
+          <label for="size">Approx. wound size <span class="small">(optional)</span></label>
+          <input id="size" name="size" placeholder="e.g. 5 cm x 4 cm">
+        </div>
+        <div>
+          <label for="town">Delivery town or area <span class="small">(optional)</span></label>
+          <input id="town" name="town" placeholder="e.g. Nairobi">
+        </div>
+      </div>
+
+      <label for="urgency">How soon is it needed?</label>
+      <select id="urgency" name="urgency">
+        <option>Within 24 hours</option>
+        <option selected>Within a few days</option>
+        <option>Just enquiring</option>
+      </select>
+
+      <label for="notes">Anything else? <span class="small">(optional)</span></label>
+      <textarea id="notes" name="notes" placeholder="How long the wound has been present, current treatment, questions..."></textarea>
+
+      <div class="btn-row"><button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.3 15.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 0 1 12 3.8z"/><path d="M8.6 7.3c-.3.3-.9.9-.9 2.1s.9 2.5 1 2.7c.1.2 1.8 2.9 4.5 3.9 2.2.8 2.7.7 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.4l-1.6-.8c-.2-.1-.5-.1-.7.2l-.7.9c-.1.2-.3.2-.6.1-.9-.4-2-1.1-2.9-2.4-.1-.2 0-.3.1-.5l.5-.6c.1-.2.2-.3.2-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4z"/></svg> Continue on WhatsApp</button></div>
+      <p class="small" style="margin-top:1rem">Please do not include a patient's full name or ID number in this first message.</p>
+    </form>
+
+    <aside>
+      <div class="contact-card">
+        <h3>Prefer to message us directly?</h3>
+        
+        <p>WhatsApp is our main channel for orders and questions.</p>
+        
+      </div>
+      <div class="note" style="margin-top:1.5rem">
+        <h3>What happens next</h3>
+        <ol style="padding-left:1.2rem;margin:.4rem 0 0">
+          <li>We read your request and reply on WhatsApp.</li>
+          <li>We confirm suitability questions, availability and timing.</li>
+          <li>We agree the next steps together.</li>
+        </ol>
+      </div>
+      <div class="note" style="margin-top:1.5rem">
+        <h3>Plan for timing</h3>
+        <p style="font-size:.95rem">Larvae are living and should be applied within about 24 hours of arrival. Let us know when the clinician will be ready.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><img src="images/logo.png" alt="" width="38" height="38"></a>
+        <p>Medical maggot therapy for chronic and non-healing wounds. Sterile larvae, clear guidance, ordering on WhatsApp.</p>
+        
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="conditions.html">What we treat</a></li>
+          <li><a href="our-lab.html">Our lab</a></li>
+          <li><a href="safety-faq.html">Safety &amp; FAQ</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>WhatsApp: </li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <p>Information on this site is educational and is not medical advice. Larval therapy should be used under the direction of a qualified clinician.</p>
+      <p>&copy; <span class="year">2026</span> Maggocare. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<a class="wa-float" data-wa="Hello Maggocare, I'd like to make an enquiry." href="#" aria-label="Chat with Maggocare on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.3 15.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 0 1 12 3.8z"/><path d="M8.6 7.3c-.3.3-.9.9-.9 2.1s.9 2.5 1 2.7c.1.2 1.8 2.9 4.5 3.9 2.2.8 2.7.7 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.4l-1.6-.8c-.2-.1-.5-.1-.7.2l-.7.9c-.1.2-.3.2-.6.1-.9-.4-2-1.1-2.9-2.4-.1-.2 0-.3.1-.5l.5-.6c.1-.2.2-.3.2-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4z"/></svg><span>WhatsApp us</span></a>
+<script src="js/main.js"></script>
+</body>
+</html>
